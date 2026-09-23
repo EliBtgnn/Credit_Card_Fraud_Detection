@@ -77,6 +77,8 @@ The comparison charts illustrate the impact of SMOTE resampling for all evaluate
 * **Precision Trade-Off (Right):** Linear models show a drop in Precision (Logistic Regression dropped to $0.06$), leading to acceptable recall at the cost of many false alarms.
 * **Optimal Balance:** Random Forest maintained the greatest resilience, with **0.85 Precision** and **0.84 Recall**.
 
+![pre vs. post SMOTE analysis](pre_vs._post_SMOTE_graph.png)
+
 > **Takeaway:** Visual analytics confirm that **Random Forest + SMOTE** achieves the highest area under the Precision-Recall spectrum, minimizing operational noise while securing critical fraud detection coverage.
 
 ---
