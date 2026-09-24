@@ -108,11 +108,16 @@ The comparison charts illustrate the impact of SMOTE resampling for all evaluate
 * **Data Drift & Model Monitoring** (Evidently AI)
 
 <p align="center">
-  <img src="images/drift_summary.png" alt="Data Drift Summary" width="850">
+  <img src="images/data_drift_report1.png" width="850">
+</p>
+<p align="center">
+  <img src="images/data_drift_report2.png" width="850">
+</p>
+<p align="center">
+  <img src="images/data_drift_report3.png" width="850">
 </p>
 
 * **Target & Feature Drift:** No significant drift detected across key decision features (`V14`, `V12`, `V4`).
 * **Interactive Dashboard:** Due to GitHub's rendering limits on large HTML files (3.8 MB+), download the interactive report below:
   
   **[Download Full Interactive Drift Report (HTML)](./data_drift_report.html)**
-  *(Once downloaded, click to open it directly in Chrome, Firefox, or Edge).*
