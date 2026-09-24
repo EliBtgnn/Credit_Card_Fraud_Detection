@@ -104,3 +104,5 @@ The comparison charts illustrate the impact of SMOTE resampling for all evaluate
   1. Integrated **Evidently AI** for real-time Data Drift monitoring to trigger automated retraining.
   2. Logged all artifacts and metrics via **MLflow**.
   3. Fully compliant with **EU AI Act (Article 13 & 14)** requirements for High-Risk Financial AI Systems through explainability and Human-in-the-Loop decision thresholds.
+ 
+* **[View Interactive Drift Report Online](https://htmlpreview.github.io/?https://github.com/<EliBtgnn>/<Credit_Card_Fraud_Detection>/blob/main/data_drift_report.html)**
