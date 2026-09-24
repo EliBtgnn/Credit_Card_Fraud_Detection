@@ -23,7 +23,7 @@ Based on the critical need for transaction security, this project uses Machine L
 * **Data types:** `float64` for numerical feature precision, `int64` for the binary target variable.
 * **Data quality:** 0 Missing Values (0.0% Nulls) across all rows.
 * **Data samples:** 248.315 legal, 492 frauds.
-* ![data distribution](legals_frauds.png)
+* ![data distribution](images/legals_frauds.png)
 
 > **Takeaway:** The dataset is fully clean and structured, making it immediately ready for feature scaling, train-test splitting, and SMOTE resampling.
 
@@ -79,7 +79,7 @@ The comparison charts illustrate the impact of SMOTE resampling for all evaluate
 * **Precision Trade-Off (Right):** Linear models show a drop in Precision (Logistic Regression dropped to $0.06$), leading to acceptable recall at the cost of many false alarms.
 * **Optimal Balance:** Random Forest maintained the greatest resilience, with **0.85 Precision** and **0.84 Recall**.
 
-![pre vs. post SMOTE analysis](SMOTE_graph.png)
+![pre vs. post SMOTE analysis](images/SMOTE_graph.png)
 
 > **Takeaway:** Visual analytics confirm that **Random Forest + SMOTE** achieves the highest area under the Precision-Recall spectrum, minimizing operational noise while securing critical fraud detection coverage.
 
@@ -90,7 +90,7 @@ The comparison charts illustrate the impact of SMOTE resampling for all evaluate
 * **Behavioral Insights:**
   * **Direct relationship:** `V4` $\rightarrow$ High feature values directly push the prediction toward a fraud classification.
   * **Inverse relationship:** `V14`, `V12`, `V3`, `V10` $\rightarrow$ Very low feature values correlate strongly with fraud detection behavior.
-![Importance of the Vi features](features_importance.png)
+![Importance of the Vi features](images/features_importance.png)
 > **Takeaway:** SHAP analysis provides explanations for the variables that flag each transaction, making it easier for fraud analyst teams to address high-risk alerts.
 
 ---
