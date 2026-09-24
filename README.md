@@ -105,4 +105,14 @@ The comparison charts illustrate the impact of SMOTE resampling for all evaluate
   2. Logged all artifacts and metrics via **MLflow**.
   3. Fully compliant with **EU AI Act (Article 13 & 14)** requirements for High-Risk Financial AI Systems through explainability and Human-in-the-Loop decision thresholds.
  
-* **[View Interactive Drift Report Online](https://htmlpreview.github.io/?https://github.com/EliBtgnn/Credit_Card_Fraud_Detection/blob/main/data_drift_report.html)**
+* **Data Drift & Model Monitoring** (Evidently AI)
+
+<p align="center">
+  <img src="images/drift_summary.png" alt="Data Drift Summary" width="850">
+</p>
+
+* **Target & Feature Drift:** No significant drift detected across key decision features (`V14`, `V12`, `V4`).
+* **Interactive Dashboard:** Due to GitHub's rendering limits on large HTML files (3.8 MB+), download the interactive report below:
+  
+  **[Download Full Interactive Drift Report (HTML)](./data_drift_report.html)**
+  *(Once downloaded, click to open it directly in Chrome, Firefox, or Edge).*
