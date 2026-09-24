@@ -22,6 +22,8 @@ Based on the critical need for transaction security, this project uses Machine L
   * `Class` (Target): Binary label (`0` = Legal, `1` = Fraud).
 * **Data types:** `float64` for numerical feature precision, `int64` for the binary target variable.
 * **Data quality:** 0 Missing Values (0.0% Nulls) across all rows.
+* **Data samples:** 248.315 legal, 492 frauds.
+![data distribution](legals_frauds.png)
 
 > **Takeaway:** The dataset is fully clean and structured, making it immediately ready for feature scaling, train-test splitting, and SMOTE resampling.
 
